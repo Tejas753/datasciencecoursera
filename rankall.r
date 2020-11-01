@@ -19,7 +19,7 @@ rankall <- function(outcome, num = "best") {
           #print(state)
           hos <- rankhospital(state, outcome, num)
           hospitalList <- c(hospitalList, hos)
-          #print(hos)
+          ##print(hos)
      }
      
      #print(hospitalList)
