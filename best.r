@@ -2,10 +2,7 @@ setwd("C:\\Users\\tejas\\Desktop\\datasciencecoursera")
 library(VIM)
 
 best <- function(state, outcome) {
-        ## Read outcome data
-        ## Check that state and outcome are valid
-        ## Return hospital name in that state with lowest 30-day death
-        ## rate
+
         
         hd <- read.csv("hospital-data.csv", header = T)
         st <- as.character(unique(hd$State))
