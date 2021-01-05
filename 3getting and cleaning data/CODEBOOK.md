@@ -99,3 +99,4 @@ As mentioned above,the variables remaining are just the calculated means and sta
 * fBodyBodyGyroJerkMagMean
 * fBodyBodyGyroJerkMagStd
 * fBodyBodyGyroJerkMagMeanFreq
+
